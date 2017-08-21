@@ -73,7 +73,7 @@ header .navbar {
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px;
+  margin-top: -10px;
 }
 header .navbar-default {
   background: none;
@@ -139,15 +139,16 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
-  padding: 25px 0 50px 0;
+  padding: 50px 0 25px 0;
 }
 #intro .block h2 {
-  padding-top: 35px;
+  padding-left: 25px;
   line-height: 27px;
   margin: 0;
 }
 #intro .block p {
   color: #7B7B7B;
+  padding-left: 25px;
   padding-top: 20px;
 }
 #intro .block img {
@@ -160,18 +161,22 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro .section-title p {
   padding-top: 20px;
 }
+
+#intro img {
+  width: 100%;
+}
 /*--
 	service Start
 --*/
 #service {
   text-align: center;
-  padding: 90px 0;
+  padding: 40px 0;
 }
 #service .service-item {
   padding-bottom: 30px;
 }
 #service .service-item i {
-  font-size: 60px;
+  font-size: 100px;
   color: #4A4656;
 }
 #service .service-item h4 {
@@ -182,9 +187,10 @@ font header .navbar-default .navbar-nav li a:hover {
 #service .service-item p {
   color: #888;
   padding-top: 10px;
-  margin: 0;
+  margin: 0 auto;
   font-size: 14px;
   line-height: 1.8;
+  width: 75%;
 }
 /*--
 	call-to-action Start
@@ -405,7 +411,10 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #portfolio-work {
   overflow: hidden;
-  padding: 80px 0;
+  padding: 50px 0;
+}
+#portfolio-work .block {
+  height: 100%;
 }
 #portfolio-work .block .portfolio-menu {
   padding-bottom: 30px;
@@ -414,7 +423,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-menu ul {
   border: 1px solid #999999;
   display: inline-block;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 #portfolio-work .block .portfolio-menu ul li {
   display: inline-block;
@@ -469,9 +478,11 @@ font header .navbar-default .navbar-nav li a:hover {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+#portfolio-work .block .portfolio-contant {
+  height: 100%;
+}
 #portfolio-work .block .portfolio-contant ul li {
   float: left;
-  width: 32.22%;
   overflow: hidden;
   margin: 6px;
   position: relative;
@@ -514,7 +525,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.75);
   opacity: 0;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
@@ -524,7 +535,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-contant .position-center {
   position: absolute;
   top: 50%;
-  left: 10%;
+  padding: 0 20px;
   -webkit-transform: translate(0%, 50%);
   -moz-transform: translate(0%, 50%);
   -ms-transform: translate(0%, 50%);
@@ -780,7 +791,8 @@ font header .navbar-default .navbar-nav li a:hover {
 footer {
   background: #0c4c92;
   text-align: center;
-  padding-top: 50px;
+  margin-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 footer p {
